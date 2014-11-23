@@ -1,15 +1,3 @@
-Clean-Data-Coursera
-===================
-
-This repository contains the scripts and related files for the project module of the Coursera course "Getting and Cleaning Data" from John Hopkins University
----
-title: "README"
-author: "opunsoars"
-date: "Sunday, November 23, 2014"
-output: html_document
----
-
-
 # Getting and Cleaning Data   
 This is a GitHub repository created for the course project in the Getting and Cleaning Data Coursera course through Johns Hopkins University.   
 In this R analysis, raw data is taken from the UCI HAR Dataset directory and cleaned and transformed using the run_analysis.R file. This repository contains the resulting clean data script, a codebook, the R analysis script, and the dataset folder. However you can get your own downloaded dataset.  
@@ -26,7 +14,6 @@ setwd("C:\\Users\\yourname\\Documents\\R\\UCI HAR Dataset\\")
 source("run_analysis.R")   
 
 Use the command below to read the result sample from this repo (if downloaded) or to check your own result after the analysis.
-
 
 data <- read.table("tidydata.txt")
 
@@ -48,6 +35,6 @@ It is 180x68 because there are 30 subjects and 6 activities, thus "for each acti
     #Extracts only the measurements on the mean and standard deviation for each measurement. 
     #Uses descriptive activity names to name the activities in the data set
     #Appropriately labels the data set with descriptive variable names. 
-    #From the data set in step 4, creates a second, independent tidy data set with the average of each variable       for each activity and each subject.
+    #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ```
 
